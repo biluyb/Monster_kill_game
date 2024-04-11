@@ -49,7 +49,7 @@ healBtn.addEventListener('click', heal);
 function gradeResult(){
     let grade=studGrade.value;
     console.log(grade)
-switch (grade) {
+switch (true) {
     case grade > 90:
         console.log("A")
         break;
