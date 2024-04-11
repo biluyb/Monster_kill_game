@@ -25,3 +25,6 @@ function attackMonster(playerGun, monsterGun){
     playerHealthLifeBar.value = +playerHealthLifeBar.value - attackResult[1];
     return attackResult;
 }
+
+const studGrade = document.getElementById("studGrade")
+const gradeBtn = document.getElementById("grade-btn")

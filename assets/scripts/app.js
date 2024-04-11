@@ -44,3 +44,30 @@ function heal() {
 attackBtn.addEventListener('click', attackTheMonster);
 strongAttackBtn.addEventListener('click', strongAttack);
 healBtn.addEventListener('click', heal);
+
+
+function gradeResult(){
+    let grade=studGrade.value;
+    console.log(grade)
+switch (grade) {
+    case grade > 90:
+        console.log("A")
+        break;
+    case grade > 80:
+        console.log("B")
+        break;
+    case grade > 70:
+        console.log("C")
+        break;
+    case grade > 60:
+        console.log("D")
+        break;
+    case grade > 50:
+        console.log("F")
+        break;
+
+    default:
+        console.log("incorrect result")
+}
+}
+gradeBtn.addEventListener("click", gradeResult)
