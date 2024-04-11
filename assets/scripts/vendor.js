@@ -26,5 +26,3 @@ function attackMonster(playerGun, monsterGun){
     return attackResult;
 }
 
-const studGrade = document.getElementById("studGrade")
-const gradeBtn = document.getElementById("grade-btn")
