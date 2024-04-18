@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monster Hunter</title>
-    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/index.css" />
     <script src="assets/scripts/vendor.js" defer></script>
     <script src="assets/scripts/app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>Monster Hunter</header>
     <section>
-        <h2>Monster health</h2>
-        <progress id="monster-health" max="100" value="100">100% </progress>
-        <h2>Player Health  <sup style="color: rgb(18, 255, 18);" id="bonus-life">1</sup> </h2> 
-        <progress id="player-health" max="100" value="100">100% </progress>
+      <h2>Monster health</h2>
+      <progress id="monster-health" max="100" value="100">100%</progress>
+      <h2>
+        Player Health
+        <sup style="color: rgb(18, 255, 18)" id="bonus-life">1</sup>
+      </h2>
+      <progress id="player-health" max="100" value="100">100%</progress>
     </section>
     <section>
-        <button id="attack-btn">ATTACK</button>
-        <button id="strong-attack-btn">STRONG ATTACK</button>
-        <button id="heal-btn">HEAL</button>
-        <button id="log-btn">SHOW LOG</button>
+      <button id="attack-btn">ATTACK</button>
+      <button id="strong-attack-btn">STRONG ATTACK</button>
+      <button id="heal-btn">HEAL</button>
+      <button id="log-btn" onclick="alert('are you sure?')">RESTART</button>
     </section>
-
-</body>
+  </body>
 </html>
+n

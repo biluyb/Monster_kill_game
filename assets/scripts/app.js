@@ -36,6 +36,8 @@ function strongAttack() {
     attack('strongKill');
 }
 
+
+
 function heal() {
 
     playerHealthLifeBar.value += 10;
@@ -44,5 +46,6 @@ function heal() {
 attackBtn.addEventListener('click', attackTheMonster);
 strongAttackBtn.addEventListener('click', strongAttack);
 healBtn.addEventListener('click', heal);
+
 
 
