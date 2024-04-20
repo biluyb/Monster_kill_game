@@ -45,7 +45,7 @@ function heal() {
 
 attackBtn.addEventListener('click', attackTheMonster);
 strongAttackBtn.addEventListener('click', strongAttack);
-healBtn.addEventListener('click', heal);
+// healBtn.addEventListener('click', heal);
 
 
 
