@@ -2,8 +2,16 @@ const ATTACK_GUN = 10;
 const MONSTER_GUN = 14;
 const STRONG_ATTACK = 20;
 
+
+function restart() {
+    const allValue = 100;
+    adjustHealthBar(allValue);
+    let maxMonsterLife = 100;
+    let player_life = 100;
+}
 let maxMonsterLife = 100;
 let player_life = 100;
+
 
 function attack(attackMode) {
     let attackType;
@@ -46,6 +54,4 @@ function heal() {
 attackBtn.addEventListener('click', attackTheMonster);
 strongAttackBtn.addEventListener('click', strongAttack);
 healBtn.addEventListener('click', heal);
-
-
-
+resetBtn.addEventListener('click', restart)

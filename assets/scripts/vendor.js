@@ -5,6 +5,7 @@ const bonus = document.getElementById("bonus-life")
 const attackBtn = document.getElementById("attack-btn")
 const strongAttackBtn = document.getElementById("strong-attack-btn")
 const healBtn = document.getElementById("heal-btn")
+const resetBtn = document.getElementById("reset-btn")
 
 function adjustHealthBar(maxLife){
     monsterHealthLifeBar.max=maxLife;
